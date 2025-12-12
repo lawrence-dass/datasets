@@ -1,0 +1,70 @@
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+ENV/
+
+# =========================
+# Jupyter / Colab
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# Data artifacts (generated)
+# =========================
+# Keep raw/curated datasets tracked,
+# ignore temporary or derived outputs
+tmp/
+temp/
+cache/
+logs/
+
+# =========================
+# Large or transient files
+# =========================
+*.tmp
+*.bak
+*.zip
+*.tar
+*.tar.gz
+
+# =========================
+# Model / experiment outputs
+# =========================
+models/
+checkpoints/
+runs/
+
+# =========================
+# Credentials (never commit)
+# =========================
+*.key
+*.pem
+*.crt
+*.p12
+secrets/
+credentials/
+
+# =========================
+# System / tooling
+# =========================
+node_modules/
+dist/
+build/
